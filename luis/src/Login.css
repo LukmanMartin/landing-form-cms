@@ -1,0 +1,339 @@
+.login-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/foto-gratis/foto-lateral-alegre-excursionista-vestida-chaqueta-lleva-mochila-equipo-necesario-lleva-estilo-vida-saludable-activo-aislado-sobre-fondo-verde-concepto-viajes-vacaciones_273609-61776.jpg?size=626&ext=jpg&ga=GA1.2.1002736375.1660813522&semt=ais);
+    height: 80vh;
+    width: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 25%;
+}
+
+
+.frase-container {
+    width: 50%;   
+    color: #fff;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15%;
+   
+}
+.title{  
+    margin-bottom: 35px;
+}
+.title h1 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align: center; 
+    margin-bottom: 25%;
+}
+.title-2 h2 {
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    text-align: center;
+}
+.formulario h2 {
+    font-size: 28px;
+  }
+.login {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 370px;
+    margin-left: 5%;
+    opacity: 0.7; /* Opacidad del elemento en sí */
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.534);
+    padding: 10px 20px;  
+    border-radius: 7px;
+   
+}
+.formulario input {    
+    margin-bottom: 20px;
+    padding: 7px;    
+    font-size: 16px; 
+    width: 250px;   
+}
+.formulario label {
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: #fff; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+/*------------------------------------------*/
+.button-login {      
+    border: none;
+    width: 10rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.2rem;
+    gap: 8rem;
+    background-color: rgb(185, 32, 32);   
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.button-login:hover {    
+   
+    background-color: rgb(255, 247, 247);
+    color: rgb(185, 32, 32)
+    
+}
+/*------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+    
+    .login-container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+        height: 450px;
+        width: 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 20%;
+    }
+
+    .login-container{
+        background-position: center;       
+    }  
+    .frase-container{
+        margin-left: 30px;
+    }    
+    .login {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+        
+        opacity: 0.7; /* Opacidad del elemento en sí */
+    }
+    
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.3rem;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.534);
+        padding: 10px 20px;  
+        border-radius: 7px;
+       
+    }
+    .formulario h2 {
+        font-size: 22px;
+      }
+    .formulario input {
+        width: 230px;            
+        font-size: 15px;        
+    }
+    .formulario label{
+        font-size: 22px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title-2 h2{
+        font-size: 20px;
+        
+    }
+    .button-login{
+        font-size: 18px;
+        width: 8rem;
+        padding: 0.4rem 1-8rem;
+    }        
+}
+@media(max-width: 768px) {
+    .login-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://img.freepik.com/foto-gratis/foto-lateral-alegre-excursionista-vestida-chaqueta-lleva-mochila-equipo-necesario-lleva-estilo-vida-saludable-activo-aislado-sobre-fondo-verde-concepto-viajes-vacaciones_273609-61776.jpg?size=626&ext=jpg&ga=GA1.2.1002736375.1660813522&semt=ais);
+        height: 100%;
+        width: 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 200px;
+        padding-right: 200px;
+        margin: auto;
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+        
+        opacity: 0.7; /* Opacidad del elemento en sí */
+    }
+    
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.3rem;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.534);
+        padding: 10px 20px;  
+        border-radius: 7px;
+       
+    }
+    .formulario h2 {
+        font-size: 22px;
+      }
+    .formulario input {
+        width: 210px;            
+        font-size: 13px;      
+    }
+    .formulario label{
+        font-size: 20px;
+    }
+    .button-login{
+        font-size: 16px;
+    }        
+   
+}
+@media(max-width: 576px) {
+    .login-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://img.freepik.com/foto-gratis/foto-lateral-alegre-excursionista-vestida-chaqueta-lleva-mochila-equipo-necesario-lleva-estilo-vida-saludable-activo-aislado-sobre-fondo-verde-concepto-viajes-vacaciones_273609-61776.jpg?size=626&ext=jpg&ga=GA1.2.1002736375.1660813522&semt=ais);
+        height: 100%;
+        width: 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: auto;        
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+        
+        opacity: 0.7; /* Opacidad del elemento en sí */
+    }
+    
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.3rem;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.534);
+        padding: 10px 20px;  
+        border-radius: 7px;
+       
+    }
+    .formulario input {
+        width: 180px;            
+        font-size: 12px;        
+    }
+    .formulario label{
+        font-size: 14px;
+    }
+    .button-login{
+        font-size: 14px;
+    }        
+}
+@media(max-width: 480px) {
+    .login-container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://img.freepik.com/foto-gratis/foto-lateral-alegre-excursionista-vestida-chaqueta-lleva-mochila-equipo-necesario-lleva-estilo-vida-saludable-activo-aislado-sobre-fondo-verde-concepto-viajes-vacaciones_273609-61776.jpg?size=626&ext=jpg&ga=GA1.2.1002736375.1660813522&semt=ais);
+        height: 100%;
+        width: 65%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: auto;        
+    }  
+    .frase-container{
+       display: none;
+    }    
+    .login {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 350px;
+        
+        opacity: 0.7; /* Opacidad del elemento en sí */
+    }
+    
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.3rem;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.534);
+        padding: 10px 20px;  
+        border-radius: 7px;
+       
+    }
+    .formulario input {
+        width: 180px;            
+        font-size: 16px;        
+    }
+    .formulario label{
+        font-size: 20px;
+    }
+    .button-login{
+        font-size: 20px;
+    }        
+
+}
